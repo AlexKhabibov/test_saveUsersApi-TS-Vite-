@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Транслировать код под ES6 (или выше)
+    "module": "CommonJS", // Система модулей Node.js
+    "rootDir": "./src", // Где лежат исходники (ts-файлы)
+    "outDir": "./dist", // Куда класть скомпилированный JS
+    "esModuleInterop": true, // Чтобы корректно импортировать CommonJS-модули
+    "strict": true // Включает строгую типизацию
+  }
+}
