@@ -1,3 +1,6 @@
+import 'antd/dist/reset.css'; // Новый подход с Ant Design v5
+import { Button } from 'antd';
+
 const form = document.getElementById('registration-form') as HTMLFormElement;
 const userList = document.getElementById('user-list') as HTMLUListElement;
 
